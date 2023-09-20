@@ -1,0 +1,7 @@
+# 数据源配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: mpw:rYAaE02w/NJfvPKNB6X7SjBjgLAAlyCiQkNmEJ1I9gc=
+    username: mpw:eM44PNDZAEvNUp4KzG6Uxg==
+    password: mpw:P/f1BhcnjS+z2GcZpUuvSg==
