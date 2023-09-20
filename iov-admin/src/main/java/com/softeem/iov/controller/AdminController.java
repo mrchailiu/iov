@@ -34,4 +34,15 @@ public class AdminController {
         List<Admin> list = adminService.list();
         return list;
     }
+
+    /**
+     * 管理员登录
+     * @param admin
+     * @return
+     */
+    @GetMapping("/login")
+    public Admin login(Admin admin){
+        System.out.println("管理员登录~~");
+        return adminService.userLogin(admin);
+    }
 }

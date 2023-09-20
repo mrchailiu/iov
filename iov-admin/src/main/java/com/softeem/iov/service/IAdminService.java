@@ -13,4 +13,10 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IAdminService extends IService<Admin> {
 
+    /**
+     * 管理员登录
+     * @param admin
+     * @return
+     */
+    public Admin userLogin(Admin admin);
 }
